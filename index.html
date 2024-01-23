@@ -249,7 +249,7 @@
                     merchandise – shop now!</p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                 <!-- item 1 -->
                 <div class="card lg:card-side bg-base-100 border border-[#0D0D121A]">
@@ -267,10 +267,13 @@
                                 <span class="text-[#0D0D1266] ml-1">200</span>
                             </i>
                         </div>
-                        <h4 class="text-xl font-extrabold">World Cup Jacket</h4>
-                        <p class="text-base text-[#0D0D1266]">
-                            our signature club jacket—a blend of comfort and team spirit.
-                        </p>
+                        <div>
+                            <h4 class="text-xl font-extrabold">World Cup Jacket</h4>
+                            <p class="text-base text-[#0D0D1266]">
+                                our signature club jacket—a blend of comfort and team spirit.
+                            </p>
+                        </div>
+                        
                         <div class="flex justify-between items-center">
                             <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
                             <i class="fa-solid fa-cart-shopping text-[#0D0D1266]"> </i>
@@ -329,7 +332,7 @@
                         </div>
                         <h4 class="text-xl font-extrabold">Cap For Hockeys</h4>
                         <p class="text-base text-[#0D0D1266]">
-                            Elevate your game-day style with our sleek and comfortable club cap
+                            Elevate your style with our sleek and comfortable club cap
                         </p>
                         <div class="flex justify-between items-center">
                             <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
@@ -389,7 +392,7 @@
                         </div>
                         <h4 class="text-xl font-extrabold">Helmet</h4>
                         <p class="text-base text-[#0D0D1266]">
-                            Ensure safety and performance on the field with our cutting-edge club helmet
+                            Ensure safety and performance on the field with our helmet
                         </p>
                         <div class="flex justify-between items-center">
                             <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
@@ -445,7 +448,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-col gap-10 lg:flex-row  border border-[#0D0D121A] p-4 lg:p-8">
+            <div class="flex flex-col gap-10 lg:flex-row md:items-center border border-[#0D0D121A] p-4 lg:p-8">
                 <div class="flex-1">
                     <img class="lg:w-full" src="Images/11.png" alt="">
                 </div>
@@ -541,18 +544,56 @@
         <section class="text-center px-2 mb-16 lg:mb-24">
             <div class="py-8 border-dashed border-y-2 mb-12 ">
                 <h2 class="text-2xl lg:text-4xl font-extrabold mb-3">Get In Touch</h2>
-                <p class="text-[#0D0D1266] lg:max-w-2xl lg:mx-auto">Feel free to reach out to us! Whether you're looking for more information, assistance, or just want to say hello, we're here and eager to hear from you. Your journey with us begins by getting in touch below.
+                <p class="text-[#0D0D1266] lg:max-w-2xl lg:mx-auto">Feel free to reach out to us! Whether you're looking
+                    for more information, assistance, or just want to say hello, we're here and eager to hear from you.
+                    Your journey with us begins by getting in touch below.
                 </p>
             </div>
-            
-        </section>
 
+        </section>
 
     </main>
 
-    <footer>
+    <footer class="bg-black-clr ">
+        <div class="max-w-7xl mx-auto text-white flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-0 px-2 md:py-24 py-10">
+            <div class="flex-1 text-center md:text-left space-y-2">
+                <h2 class="text-2xl font-bold">Hockey<span class="text-main-clr">’</span>s</h2>
+                <p>Experience excellence with Hockey’s where passion <br>meets performance. 
+                </p>
+                <p><i class="fa-regular fa-envelope text-main-clr mr-2"></i> hockeys@support.com</p>
+                <p><i class="fa-solid fa-phone text-main-clr mr-2"></i>(+62) 123-321-543</p>
+            </div>
+            <div class="flex-1 flex justify-between gap-10 md:gap-0">
+                <div class="flex-1 space-y-2  text-center md:text-left">
+                    <h4 class="text-lg">Company</h4>
+                    <p>About us</p>
+                    <p>Leadership</p>
+                    <p>Careers</p>
+                    <p>News & Article</p>
+                    <p>Legal Notice</p>
+                </div>
 
+                <div class="flex-1 space-y-2 text-center md:text-left">
+                    <h4 class="text-lg">Support</h4>
+                    <p>Help Center</p>
+                    <p>FAQ</p>
+                    <p>Ticket Support</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+            
+            <div class="space-y-2 text-center md:text-left">
+                <h4 class="text-lg">Services</h4>
+                <p>Academy</p>
+                <p>Group Lesson</p>
+                <p>Private Lesson</p>
+                <p>Hockeys for kids</p>
+                <p>Hockeys for adults</p>
+            </div>
+        </div>
     </footer>
+
+
 </body>
 
 </html>
